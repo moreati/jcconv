@@ -27,7 +27,8 @@ if __name__ == '__main__':
                         "Operating System :: POSIX",
                         "Programming Language :: Python",
                         "Topic :: Software Development :: Libraries :: Python Modules"],
+    include_package_data = True,
     tests_require = ['six'],
-    test_suite = "jcconv.jcconv_test",
+    test_suite = "tests",
     install_requires = ['six'],
     )
