@@ -11,7 +11,7 @@ f.close()
 if __name__ == '__main__':
   # build distribution package
   setup(
-    packages         = ('jcconv',),
+    packages         = ['jcconv'],
     name             = 'jcconv',
     version          = '0.2.3',
     description      = 'jcconv "JapaneseCharacterCONVerter", interconvert hiragana, katakana, halfwidth kana',
