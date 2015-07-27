@@ -8,9 +8,7 @@ long_description = f.read().strip()
 f.close()
 
 
-if __name__ == '__main__':
-  # build distribution package
-  setup(
+setup(
     packages         = ['jcconv'],
     name             = 'jcconv',
     version          = '0.2.3',
